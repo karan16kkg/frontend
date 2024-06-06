@@ -1,0 +1,36 @@
+body{
+    height: 2000px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.container-fluid{
+    border: 0px;
+}
+#image{
+    cursor: pointer;
+    margin-left: 130px;
+}
+#prodct{
+    text-decoration: none;
+    color: rgb(151, 147, 147);
+    cursor: pointer;
+}
+.d-flex{
+    width: 730px;
+}
+.form-control me-2{
+    width: 300px;
+}
+#icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    cursor: pointer;
+}
+#content{
+    border: 2px solid red;
+    height: 100px;
+}

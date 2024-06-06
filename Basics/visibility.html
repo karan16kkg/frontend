@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            height: 80px;
+            width: 100px;
+        }
+        /* z index will only work for position: relative,absolute,fixed or sticky*/
+        #box1{
+            background-color: red;
+            position: relative;
+            z-index: 40px;
+        }
+        #box2{
+            /*this will become box hidden but its space is there*/
+            /* visibility: hidden; */
+           /*this will become box hidden and its space also*/
+           /* display: none; */
+            background-color: green;
+            position: relative;
+            z-index: 30px; /*whose z-index will more it will cover other*/
+        }
+        #box3{
+            background-color: blue;
+        }
+        #box4{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

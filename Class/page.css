@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 70px;
+}
+.logo{
+    margin-top: 22px;
+    margin-left: 250px;
+}
+#navbar{
+    margin-top: 8px;
+    margin-right: 150px;
+    display: flex;
+    /* justify-content: center; */
+}
+p{
+    margin-left: 40px;
+    font-size: larger;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.center button{
+    height: 50px;
+    width: 150px;
+    background-color: #387ed1;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    box-shadow: none;
+}
+.trop{
+    display: flex;
+    justify-content: space-between;
+}
+#abc{
+    margin-left: 150px;
+}
+#xyz{
+    /* border: 2px solid red; */
+    width: 600px;
+    margin-right: 170px;
+    
+}
+.lst{
+    display: flex;
+    margin-left: 20px;
+}
+.lst li{
+    margin-bottom: 20px;
+}

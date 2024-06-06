@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            height: 30px;
+            margin-left: 40px;
+            background-color: rgb(109, 227, 227);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contan">
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consectetur aspernatur blanditiis quibusdam. Nihil ipsa nesciunt impedit et accusamus laudantium optio labore, doloribus nostrum quibusdam laborum aliquid explicabo vitae nam temporibus. Dolorum veniam odio beatae corporis architecto eaque dolore explicabo inventore ratione cumque minus nostrum unde illum, fugit aperiam et, nam nihil assumenda eum? Ratione, nemo beatae tenetur illum earum aperiam! Sapiente corporis distinctio, aliquid, sint quos facilis magni aut reprehenderit quibusdam labore, rerum cupiditate at voluptate atque? Molestias ab quia consectetur. Accusamus, quis veritatis enim, iste totam distinctio quibusdam velit cumque harum atque, quae cum inventore soluta! Voluptate, maiores aperiam! Excepturi aliquid nisi veritatis ipsa cupiditate alias, ad magnam tenetur eaque doloremque vero voluptatibus in totam! Ducimus pariatur illo tempore fugiat incidunt! Nobis consequuntur nulla deleniti fuga, iste voluptas tempora voluptates, ex aut quaerat reprehenderit. Necessitatibus libero, magnam quasi nobis quidem sit cum labore repellendus autem asperiores voluptates blanditiis obcaecati culpa eos excepturi minus illo error reprehenderit dolores quae itaque tempora a. Magnam, quaerat eaque minus distinctio iure amet iusto voluptatem facere dolores asperiores eius omnis velit provident, necessitatibus corporis aut ea perferendis consectetur, quisquam nemo quo non? Animi explicabo, eaque laboriosam quod minus inventore ab quisquam fugit sint.</p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Hide/Show</button>
+</body>
+<script>
+    let para=document.getElementById("para");
+    let btn=document.getElementById("btn");
+    function toggleHide(){
+        if(para.style.display!="none"){
+            para.style.display="none"
+        }
+        else{
+            para.style.display="block"
+        }
+    }
+</script>
+</html>

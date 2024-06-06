@@ -1,0 +1,86 @@
+ .navconst{
+    background-color: black;
+}
+.logo{
+    height: 40px;
+    width: 35px;
+    float: left;
+}
+.nav{
+    height: 30px;
+    width: 300px;
+    padding-top: 10px;
+}
+.nav a{
+    margin-left: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round',sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('https://img.freepik.com/premium-photo/concept-eternal-theme-about-eternity-music-musical-instruments-good-mood-ascended-aspiration-action-treble-clef-sheet-music_771426-4115.jpg');
+    /* background-repeat: no-repeat; */
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.songitemcont{
+    margin-top: 70px;
+}
+.songitem{
+    /* border: 2px solid red; */
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+.timestamp{
+    margin: 0 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.icons{
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    padding: 3px;
+    /* width: 60px; */
+}
+#myprogress{
+    width: 120vh;
+    text-align: center;
+    cursor: pointer;
+}
+.songitem img{
+    border-radius: 30px;
+}
+.songinfo{
+    margin-top: 20px;
+    position: absolute;
+    left: 20vw;
+}
+.songinfo img{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}

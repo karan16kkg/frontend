@@ -1,0 +1,87 @@
+body{
+  background-image: url(https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2020-5/snack-bento-box-1296x728-header.jpg?w=1155&h=1528);
+  background-repeat: no-repeat;
+  height: 1700px;
+  background-size: 100%;
+  background-color: rgb(252, 134, 134);
+}
+.logo{
+  float: left;
+  margin-left: 20px;
+}
+.nav{
+    float: center;
+    padding: 10px;
+    background-color: rgb(110, 39, 46);
+    width: 1100px;
+    margin-left: 180px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.nav a{
+  margin: 15px;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px rosybrown;
+}
+.nav a:hover{
+  color:yellowgreen;
+}
+.ord{
+  text-align: center;
+  margin-top: 60px;
+  color: antiquewhite;
+}
+#btn{
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(184, 175, 175);
+  font-size: 15px;
+  font-weight: bold;
+}
+#servs{
+  text-align:center ;
+  color: rgb(255, 255, 255);
+  font-weight:bold ;
+  padding-top: 50px;
+}
+.serv{
+  height: 415px;
+  width: 100%;
+  background-color:rgb(236, 212, 212);
+  display: flex;
+}
+.order{
+  margin-left: 40px;
+  margin-top: 50px;
+  border: 3px solid rgb(13, 13, 13);
+  border-radius: 8px;
+  width: 340px;
+  height: 340px;
+  text-align: center;
+}
+.catering{
+  margin-left: 190px;
+  margin-top: 50px;
+  border: 3px solid rgb(13, 13, 13);
+  border-radius: 8px;
+  width: 340px;
+  height: 340px;
+  text-align: center;
+}
+.deliver{
+  margin-left: 190px;
+  margin-top: 50px;
+  border: 3px solid rgb(13, 13, 13);
+  border-radius: 8px;
+  width: 340px;
+  height: 340px;
+  text-align: center;
+}
+.conta{
+  border: 2px solid black;
+  height: 900px;
+  background: url('https://static2.bigstockphoto.com/7/7/3/large1500/377810311.jpg');
+}

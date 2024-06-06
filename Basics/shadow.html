@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid red;
+            /* height: 1500px; */
+            width: 900px;
+        }
+        .cont{
+            /* border: 2px solid red; */
+            background-color: rgb(231, 200, 162);
+            padding: 10px 23px;
+            width: 250px;
+            margin: 20px;
+            /* box-shadow: width in x, width in y, blur radius,spread radius,color(or if want color on top or left of box use "-") */
+            box-shadow: 6px 8px 8px 30px rgb(245, 204, 109);
+        }
+        h1{
+            text-shadow: 2px 4px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="cont">
+        <h1>Item 1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus ad voluptates animi, ex debitis nemo asperiores accusantium praesentium, nostrum tempora obcaecati distinctio porro laudantium doloremque incidunt odio culpa magni.</p>
+       </div>
+     <div class="cont">
+        <h1>Item 2</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus ad voluptates animi, ex debitis nemo asperiores accusantium praesentium, nostrum tempora obcaecati distinctio porro laudantium doloremque incidunt odio culpa magni.</p>
+     </div>
+     <div class="cont">
+        <h1>Item 3</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus ad voluptates animi, ex debitis nemo asperiores accusantium praesentium, nostrum tempora obcaecati distinctio porro laudantium doloremque incidunt odio culpa magni.</p>
+     </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="contan">
+        <ul id="nav">
+        <li>Home</li>
+        <li>View</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="contan">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, voluptatem.</p>
+    </div>
+</body>
+<script>
+    let doc=document.getElementById("nav")
+    console.log(nav)
+    let container=document.getElementsByClassName("contan")
+    console.log(container)
+    let sel=document.querySelector("#nav>li")
+    console.log(sel)
+    let sels=document.querySelectorAll("#nav>li")
+    console.log(sels)
+</script>
+</html>

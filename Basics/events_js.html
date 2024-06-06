@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            height: 40px;
+            border: 3px solid black;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is heading</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam numquam unde nulla quis hic illo deserunt
+        veritatis facilis iure? Et velit repellendus eveniet fugit, quisquam corrupti doloremque enim tempora amet
+        distinctio sapiente repellat magni? Nesciunt quaerat quo dolor, corrupti in est amet. Laborum adipisci deserunt
+        repellendus, similique numquam officiis, iusto labore dolor quo ad beatae quasi cumque rerum nostrum debitis
+        ipsam aliquid quidem qui! Eaque repudiandae voluptatem dolorem culpa odit dicta earum unde, quis magni
+        perferendis dolorum provident dolor nemo consequatur quam quo incidunt neque iure beatae similique, libero
+        reiciendis ipsa rerum. Nemo quaerat reiciendis ex nam quibusdam expedita.
+    </p>
+    <button id="btn" onclick="hide()">Show/Hide</button>
+    <script>
+        let para=document.getElementById('para');
+        para.addEventListener('mouseover',function run(){
+            alert("mouse inside");
+        });
+        
+        function hide(){
+            let btn=document.getElementById('btn');
+            let para=document.getElementById('para');
+            // para.style.display='none';
+            if(para.style.display != 'none'){
+                para.style.display='none';
+            }
+            else{
+                para.style.display='block';
+            }
+        }
+    </script>
+</body>
+
+</html>

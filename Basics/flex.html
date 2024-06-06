@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex-row is as default when we use flex */
+            /* Flex properties for container */
+            /* flex-direction: row;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse;*//*for the reverse wrap wrap from bottom */
+            justify-content: center;/*for the text at center*/
+            justify-content: space-between;/*for space between blocks*/
+            justify-content: space-around;/*for space to every where*/
+            align-items: center;/*center from top*/
+        }
+        .box{
+            border: 2px solid black;
+            margin: 20px;
+            background-color: tomato;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div class="container">
+        <div class="box" id="box1">First Box</div>
+        <div class="box" id="box2">Second Box</div>
+        <div class="box" id="box3">Third Box</div>
+        <div class="box" id="box4">Fourth Box</div>
+        <div class="box" id="box5">Fifth Box</div>
+        <div class="box" id="box6">Sixth Box</div>
+    </div>
+</body>
+</html>
